@@ -1,0 +1,19 @@
+{
+  "name": "@ayla/eslint-config-basic",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "yoren",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "eslint": "^8.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  }
+}

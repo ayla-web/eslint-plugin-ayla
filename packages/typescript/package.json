@@ -1,0 +1,21 @@
+{
+  "name": "@ayla/eslint-config-typescript",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "yoren",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@ayla/eslint-config-basic": "workspace:*",
+    "eslint": "^8.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  }
+}

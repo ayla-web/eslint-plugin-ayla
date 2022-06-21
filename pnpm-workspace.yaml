@@ -1,0 +1,4 @@
+package: 
+  # - '.' # root directory
+  - 'packages/*' # all packages in subdirs of packages/
+  # - "!**/test/**" # '!' means exclude

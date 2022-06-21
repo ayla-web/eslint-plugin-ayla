@@ -1,0 +1,6 @@
+{
+  "extends": "@ayla",
+  "plugins": [
+    "ayla"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@ayla/eslint-monorepo",
+  "version": "1.0.1",
+  "description": "",
+  "author": "yoren",
+  "license": "MIT",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "bumpp": "^7.1.1",
+    "eslint": "^8.16.0",
+    "typescript": "^4.7.3",
+    "@ayla/eslint-config": "*",
+    "eslint-plugin-ayla": "workspace:*"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  }
+}

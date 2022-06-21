@@ -1,0 +1,22 @@
+{
+  "name": "@ayla/eslint-config-vue3",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint-plugin-vue": "^9.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.16.0",
+    "@ayla/eslint-config-typescript": "workspace:*"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  }
+}
