@@ -5,7 +5,7 @@ reference with (antfu/eslint-config)[https://github.com/antfu/eslint-config] but
 ### Install
 
 ```bash
-pnpm add -D eslint @antfu/eslint-config
+pnpm add -D eslint @ayla/eslint-config
 ```
 ### Config `.eslintrc`
 
@@ -26,3 +26,8 @@ Create `.vscode/settings.json`
   }
 }
 ```
+
+### additional packages
+- rimraf
+- nr
+- bumpp
