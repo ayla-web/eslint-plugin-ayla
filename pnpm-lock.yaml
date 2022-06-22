@@ -4,13 +4,13 @@ importers:
 
   .:
     specifiers:
-      '@ayla/eslint-config': '*'
+      '@aylaweb/eslint-config': '*'
       bumpp: ^7.1.1
       eslint: ^8.16.0
       eslint-plugin-ayla: workspace:*
       typescript: ^4.7.3
     devDependencies:
-      '@ayla/eslint-config': link:packages/all
+      '@aylaweb/eslint-config': link:packages/all
       bumpp: 7.2.0
       eslint: 8.16.0
       eslint-plugin-ayla: link:packages/eslint-plugin-ayla
@@ -18,12 +18,12 @@ importers:
 
   packages/all:
     specifiers:
-      '@ayla/eslint-config-typescript': workspace:*
-      '@ayla/eslint-config-vue3': workspace:*
+      '@aylaweb/eslint-config-typescript': workspace:*
+      '@aylaweb/eslint-config-vue3': workspace:*
       eslint: ^8.16.0
     dependencies:
-      '@ayla/eslint-config-typescript': link:../typescript
-      '@ayla/eslint-config-vue3': link:../vue3
+      '@aylaweb/eslint-config-typescript': link:../typescript
+      '@aylaweb/eslint-config-vue3': link:../vue3
     devDependencies:
       eslint: 8.16.0
 
@@ -46,13 +46,13 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@ayla/eslint-config-basic': workspace:*
+      '@aylaweb/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.27.1
       '@typescript-eslint/parser': ^5.27.1
       eslint: ^8.16.0
       typescript: ^4.7.3
     dependencies:
-      '@ayla/eslint-config-basic': link:../base
+      '@aylaweb/eslint-config-basic': link:../base
       eslint: 8.16.0
     devDependencies:
       '@typescript-eslint/eslint-plugin': 5.27.1_mqoy4cjz5jjezkeoxd3afqicgu
@@ -61,11 +61,11 @@ importers:
 
   packages/vue3:
     specifiers:
-      '@ayla/eslint-config-typescript': workspace:*
+      '@aylaweb/eslint-config-typescript': workspace:*
       eslint: ^8.16.0
       eslint-plugin-vue: ^9.0.1
     dependencies:
-      '@ayla/eslint-config-typescript': link:../typescript
+      '@aylaweb/eslint-config-typescript': link:../typescript
       eslint: 8.16.0
     devDependencies:
       eslint-plugin-vue: 9.0.1_eslint@8.16.0

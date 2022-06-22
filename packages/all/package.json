@@ -1,5 +1,5 @@
 {
-  "name": "@ayla/eslint-config",
+  "name": "@aylaweb/eslint-config",
   "version": "1.1.1",
   "description": "",
   "homepage": "https://github.com/ayla-web/eslint-plugin-ayla",
@@ -19,8 +19,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ayla/eslint-config-typescript": "workspace:*",
-    "@ayla/eslint-config-vue3": "workspace:*"
+    "@aylaweb/eslint-config-typescript": "workspace:*",
+    "@aylaweb/eslint-config-vue3": "workspace:*"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

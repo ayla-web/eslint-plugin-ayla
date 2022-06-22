@@ -3,7 +3,7 @@ module.exports = {
     node: true
   },
   extends: [
-    '@ayla/eslint-config-basic',
+    '@aylaweb/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
   rules: {

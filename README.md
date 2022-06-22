@@ -5,13 +5,13 @@ reference with (antfu/eslint-config)[https://github.com/antfu/eslint-config] but
 ### Install
 
 ```bash
-pnpm add -D eslint @ayla/eslint-config
+pnpm add -D eslint @aylaweb/eslint-config
 ```
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@ayla"
+  "extends": "@aylaweb"
 }
 ```
 ### Config VS Code auto fix

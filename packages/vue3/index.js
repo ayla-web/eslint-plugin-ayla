@@ -5,7 +5,7 @@ module.exports = {
     node: true
   },
   extends: [
-    '@ayla/eslint-config-typescript',
+    '@aylaweb/eslint-config-typescript',
     'plugin:vue/vue3-recommended',
   ],
   rules: {

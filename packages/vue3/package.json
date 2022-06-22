@@ -1,5 +1,5 @@
 {
-  "name": "@ayla/eslint-config-vue3",
+  "name": "@aylaweb/eslint-config-vue3",
   "version": "1.1.1",
   "description": "",
   "main": "index.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint": "^8.16.0",
-    "@ayla/eslint-config-typescript": "workspace:*"
+    "@aylaweb/eslint-config-typescript": "workspace:*"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

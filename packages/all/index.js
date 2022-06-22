@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@ayla/eslint-config-typescript',
-    '@ayla/eslint-config-vue3',
+    '@aylaweb/eslint-config-typescript',
+    '@aylaweb/eslint-config-vue3',
   ],
 }

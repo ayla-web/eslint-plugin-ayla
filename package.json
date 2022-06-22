@@ -1,5 +1,5 @@
 {
-  "name": "@ayla/eslint-monorepo",
+  "name": "@aylaweb/eslint-monorepo",
   "version": "1.1.1",
   "description": "",
   "author": "yoren",
@@ -15,7 +15,7 @@
     "bumpp": "^7.1.1",
     "eslint": "^8.16.0",
     "typescript": "^4.7.3",
-    "@ayla/eslint-config": "*",
+    "@aylaweb/eslint-config": "*",
     "eslint-plugin-ayla": "workspace:*"
   },
   "peerDependencies": {
