@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "eslint-config"
+  ],
   "author": "yoren",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.1",

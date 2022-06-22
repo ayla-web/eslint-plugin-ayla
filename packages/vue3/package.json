@@ -9,9 +9,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint-config"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "eslint": "^8.16.0",
     "@ayla/eslint-config-typescript": "workspace:*"

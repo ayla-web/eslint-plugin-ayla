@@ -15,11 +15,8 @@ module.exports = {
       },
     ],
     semi: [
-      2,
+      'error',
       'never',
-      {
-        beforeStatementContinuationChars: 'never',
-      },
     ],
     'no-delete-var': 2,
     'prefer-const': [

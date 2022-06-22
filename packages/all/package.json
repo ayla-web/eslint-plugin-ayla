@@ -2,7 +2,7 @@
   "name": "@ayla/eslint-config",
   "version": "1.0.1",
   "description": "",
-  "homepage": "",
+  "homepage": "https://github.com/ayla-web/eslint-plugin-ayla",
   "main": "index.js",
   "files": [
     "index.js"
@@ -13,9 +13,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint-config"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@ayla/eslint-config-typescript": "workspace:*",
     "@ayla/eslint-config-vue3": "workspace:*"
