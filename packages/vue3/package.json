@@ -1,6 +1,6 @@
 {
   "name": "@ayla/eslint-config-vue3",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "devDependencies": {
@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/ayla-web/eslint-plugin-ayla",
   "keywords": [
     "eslint-config"
   ],

@@ -1,9 +1,12 @@
 {
   "name": "@ayla/eslint-config-basic",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "keywords": [],
+  "homepage": "https://github.com/ayla-web/eslint-plugin-ayla",
+  "keywords": [
+    "eslint-config"
+  ],
   "author": "yoren",
   "scripts": {
     "lint": "eslint . --config=index.js"

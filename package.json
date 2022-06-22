@@ -1,14 +1,15 @@
 {
   "name": "@ayla/eslint-monorepo",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "",
   "author": "yoren",
   "license": "MIT",
+  "homepage": "https://github.com/ayla-web/eslint-plugin-ayla",
   "scripts": {
     "test": "test",
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag"
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
     "bumpp": "^7.1.1",

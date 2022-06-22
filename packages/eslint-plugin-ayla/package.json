@@ -1,10 +1,11 @@
 {
   "name": "eslint-plugin-ayla",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/ayla-web/eslint-plugin-ayla",
   "files": [
     "dist"
   ],
