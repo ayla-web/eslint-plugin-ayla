@@ -11,9 +11,10 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^8.16.0"
+  },
+  "dependencies": {
   },
   "peerDependencies": {
     "eslint": ">=7.4.0",
