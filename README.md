@@ -1,5 +1,5 @@
 # ayla/eslint-config
-reference with (antfu/eslint-config)[https://github.com/antfu/eslint-config] but more suitable for the current project.
+reference with [antfu/eslint-config](https://github.com/antfu/eslint-config) but more suitable for the current project.
 ## Usage
 
 ### Install
