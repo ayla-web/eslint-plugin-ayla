@@ -13,11 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@aylaweb/eslint-config-typescript": "workspace:*"
+    "@aylaweb/eslint-config-typescript": "workspace:*",
+    "eslint-plugin-vue": "^9.0.1"
   },
   "devDependencies": {
-    "eslint": "^8.16.0",
-    "eslint-plugin-vue": "^9.0.1"
+    "eslint": "^8.16.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
