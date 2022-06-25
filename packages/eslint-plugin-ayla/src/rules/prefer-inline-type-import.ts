@@ -13,41 +13,46 @@ export default createEslintRule<Options, MessageIds>({
     type: 'suggestion',
     docs: {
       description: 'Newline after if',
-      recommended: 'error',
+      recommended: 'error'
     },
     fixable: 'code',
     schema: [],
     messages: {
-      preferInlineTypeImport: 'Prefer inline type import',
-    },
+      preferInlineTypeImport: 'Prefer inline type import'
+    }
   },
   defaultOptions: [],
-  create: (context) => {
+  create: context => {
     const sourceCode = context.getSourceCode()
     return {
-      ImportDeclaration: (node) => {
+      ImportDeclaration: node => {
         // ignore bare type imports
-        if (node.specifiers.length === 1 && ['ImportNamespaceSpecifier', 'ImportDefaultSpecifier'].includes(node.specifiers[0].type))
+        if (
+          node.specifiers.length === 1 &&
+          ['ImportNamespaceSpecifier', 'ImportDefaultSpecifier'].includes(
+            node.specifiers[0].type
+          )
+        )
           return
         if (node.importKind === 'type') {
           context.report({
             *fix(fixer) {
-              yield * removeTypeSpecifier(fixer, sourceCode, node)
+              yield* removeTypeSpecifier(fixer, sourceCode, node)
 
               for (const specifier of node.specifiers)
                 yield fixer.insertTextBefore(specifier, 'type ')
             },
             loc: node.loc,
             messageId: 'preferInlineTypeImport',
-            node,
+            node
           })
         }
-      },
+      }
     }
-  },
+  }
 })
 
-function *removeTypeSpecifier(fixer, sourceCode, node) {
+function* removeTypeSpecifier(fixer, sourceCode, node) {
   const importKeyword = sourceCode.getFirstToken(node)
 
   const typeIdentifier = sourceCode.getTokenAfter(importKeyword)
@@ -57,7 +62,7 @@ function *removeTypeSpecifier(fixer, sourceCode, node) {
   if (importKeyword.loc.end.column + 1 === typeIdentifier.loc.start.column) {
     yield fixer.removeRange([
       importKeyword.range[1],
-      importKeyword.range[1] + 1,
+      importKeyword.range[1] + 1
     ])
   }
 }

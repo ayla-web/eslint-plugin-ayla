@@ -4,10 +4,7 @@ module.exports = {
   env: {
     node: true
   },
-  extends: [
-    '@aylaweb/eslint-config-typescript',
-    'plugin:vue/vue3-recommended',
-  ],
+  extends: ['@aylaweb/eslint-config-typescript', 'plugin:vue/vue3-recommended'],
   rules: {
     'vue/max-attributes-per-line': [
       2,
@@ -30,7 +27,7 @@ module.exports = {
     'vue/no-use-v-if-with-v-for': 0,
     'vue/html-closing-bracket-newline': 0,
     'vue/no-parsing-error': 0,
-    'vue/one-component-per-file': 'off', // 我觉得tsx的意义就在于可以写多个，但是vetur提示不允许
+    'vue/one-component-per-file': 'off' // 我觉得tsx的意义就在于可以写多个，但是vetur提示不允许
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',

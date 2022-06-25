@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ['plugin:prettier/recommended'],
   rules: {
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -11,23 +12,20 @@ module.exports = {
       'single',
       {
         avoidEscape: true,
-        allowTemplateLiterals: true,
-      },
+        allowTemplateLiterals: true
+      }
     ],
-    semi: [
-      'error',
-      'never',
-    ],
+    semi: ['error', 'never'],
     'no-delete-var': 2,
     'prefer-const': [
       2,
       {
-        ignoreReadBeforeAssign: false,
-      },
+        ignoreReadBeforeAssign: false
+      }
     ],
     'template-curly-spacing': 'off',
     indent: 'off',
-    camelcase: 'error',
+    camelcase: 'error'
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -35,8 +33,8 @@ module.exports = {
     sourceType: 'module', // Allows for the use of imports
     ecmaFeatures: {
       tsx: true,
-      jsx: true,
-    },
+      jsx: true
+    }
   },
   ignorePatterns: [
     '*.min.*',
@@ -53,6 +51,6 @@ module.exports = {
     '__snapshots__',
     '!.github',
     '!.vitepress',
-    '!.vscode',
+    '!.vscode'
   ]
 }

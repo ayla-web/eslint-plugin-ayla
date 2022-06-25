@@ -1,5 +1,6 @@
 {
   "name": "@aylaweb/eslint-monorepo",
+  "private": true,
   "version": "1.3.3",
   "description": "",
   "author": "yoren",
@@ -15,7 +16,10 @@
     "@aylaweb/eslint-config": "*",
     "bumpp": "^7.1.1",
     "eslint": "^8.16.0",
-    "typescript": "^4.7.3",
-    "eslint-plugin-ayla": "workspace:*"
+    "eslint-plugin-ayla": "workspace:*",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
   }
 }
