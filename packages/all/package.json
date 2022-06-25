@@ -1,6 +1,6 @@
 {
   "name": "@aylaweb/eslint-config",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "description": "",
   "homepage": "https://github.com/ayla-web/eslint-plugin-ayla",
   "main": "index.js",
