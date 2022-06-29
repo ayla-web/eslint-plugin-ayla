@@ -1,4 +1,4 @@
-# ayla/eslint-config
+# @aylaweb/eslint-config-vue3
 
 reference with [antfu/eslint-config](https://github.com/antfu/eslint-config) but more suitable for the current project.
 
@@ -7,20 +7,16 @@ reference with [antfu/eslint-config](https://github.com/antfu/eslint-config) but
 ### Install
 
 ```bash
-npx add -D eslint @aylaweb/eslint-config
+npx add -D eslint @aylaweb/eslint-config-vue3
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@aylaweb/eslint-config-basic"
+  "extends": "@aylaweb/eslint-config-vue3"
 }
 ```
-
-`@aylaweb/eslint-config-basic`
-`@aylaweb/eslint-config-typescript`
-`@aylaweb/eslint-config-vue3`
 
 ### add .prettierrc in root
 
