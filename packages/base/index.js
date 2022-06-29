@@ -1,5 +1,8 @@
 module.exports = {
   extends: ['plugin:prettier/recommended'],
+  env: {
+    es6: true
+  },
   rules: {
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
