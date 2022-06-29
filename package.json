@@ -1,7 +1,7 @@
 {
   "name": "@aylaweb/eslint-monorepo",
   "private": true,
-  "version": "1.4.2",
+  "version": "1.4.3-beta.0",
   "description": "",
   "author": "yoren",
   "license": "MIT",
